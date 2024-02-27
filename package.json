@@ -1,0 +1,13 @@
+{
+  "name": "rxjs_examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reactive_programming.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
