@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "reactive_programming.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example_observable": "node example_observable.js",
+    "example_observable_unicast": "node example_observable_unicast.js",
+    "rxjs_subjects": "node rxjs_subjects.js",
+    "rxjs_subject": "node rxjs_subject.js",
+    "rxjs_void_subject": "node rxjs_void_subject.js",
+    "rxjs_behaviorSubject": "node rxjs_behaviorSubject.js",
+    "rxjs_replaySubject": "node rxjs_replaySubject.js",
+    "rxjs_asyncSubject": "node rxjs_asyncSubject.js"
   },
   "private": true,
   "dependencies": {

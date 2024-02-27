@@ -25,16 +25,12 @@ class Observable {
 
 function run() {
     var clickHandler = function (item) {
-        console.log("fired: " + item);
+        console.log("value: " + item);
     };
     var subject = new Observable();
-    subject.subscribe((item) => console.log("uooooooo " + item))
+    subject.subscribe((item) => console.log("another value: " + item))
     subject.subscribe(clickHandler);
-    subject.update('event #1');
-    subject.unsubscribe(clickHandler);
-    subject.update('event #2');
-    subject.subscribe(clickHandler);
-    subject.update('event #3');
+    subject.update('event');
 }
 
 run()
