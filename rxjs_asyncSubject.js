@@ -13,4 +13,4 @@ rxjs_subject.next(5);
 
 rxjs_subject.subscribe(x => console.log('observer 2', x))
 
-// rxjs_subject.complete()
+rxjs_subject.complete()

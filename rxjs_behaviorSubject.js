@@ -1,7 +1,7 @@
 import {BehaviorSubject} from "rxjs";
 
-// const rxjs_subject = new BehaviorSubject();
-const rxjs_subject = new BehaviorSubject(123);
+const rxjs_subject = new BehaviorSubject();
+// const rxjs_subject = new BehaviorSubject(123);
 
 let value = 0;
 rxjs_subject.subscribe(newValue => {

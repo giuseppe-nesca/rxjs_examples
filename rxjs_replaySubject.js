@@ -1,7 +1,7 @@
 import {ReplaySubject} from "rxjs";
 
-const rxjs_subject = new ReplaySubject(3);
-// const rxjs_subject = new ReplaySubject(3, 100);
+// const rxjs_subject = new ReplaySubject(3);
+const rxjs_subject = new ReplaySubject(3, 100);
 
 rxjs_subject.subscribe(x => console.log('observer 1', x))
 
