@@ -13,7 +13,8 @@
     "rxjs_void_subject": "node rxjs_void_subject.js",
     "rxjs_behaviorSubject": "node rxjs_behaviorSubject.js",
     "rxjs_replaySubject": "node rxjs_replaySubject.js",
-    "rxjs_asyncSubject": "node rxjs_asyncSubject.js"
+    "rxjs_asyncSubject": "node rxjs_asyncSubject.js",
+    "rxjs_iif_example": "node iif_xample.js"
   },
   "private": true,
   "dependencies": {
